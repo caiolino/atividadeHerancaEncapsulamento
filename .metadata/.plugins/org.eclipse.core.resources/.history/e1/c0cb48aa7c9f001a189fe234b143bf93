@@ -71,14 +71,5 @@ public class Veiculo {
 
 		}
 	}
-	
-	public void curva() {
-		if (this.velocidade >= 0) {
-			System.out.println("O veiculo esta capotou");
-		}else{
-			System.out.println("Curva feita com sucesso!");
-
-		}
-	}
 
 }
