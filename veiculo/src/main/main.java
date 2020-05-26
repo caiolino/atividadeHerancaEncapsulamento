@@ -1,0 +1,29 @@
+package main;
+
+import model.Carro;
+
+public class main {
+
+	public static void main(String[] args) {		
+		
+		Carro car = new Carro();
+		
+		car.setMarca("MarcaTeste");
+		car.setCor("preto");
+		car.setModelo("testeModelo");
+		car.setPortas(4);
+		car.setTamanho("Grande");
+		car.setVelocidade(0);
+		car.setVelocidadeMax(200);
+		
+		car.acelerar();
+		car.acelerar();
+		
+		car.frear();
+		car.frear();
+		car.frear();
+	
+
+	}
+
+}

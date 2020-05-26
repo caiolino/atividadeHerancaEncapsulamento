@@ -1,0 +1,10 @@
+package main;
+
+import model.Veiculo;
+
+public class main {
+	
+	Veiculo car = new Veiculo();
+
+
+}

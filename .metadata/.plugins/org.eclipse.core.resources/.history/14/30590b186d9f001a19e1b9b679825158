@@ -1,0 +1,12 @@
+package main;
+
+import model.Carro;
+
+public class main {
+	
+	Carro carro = new Carro();
+
+	carro.
+	
+
+}

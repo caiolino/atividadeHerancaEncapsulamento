@@ -1,0 +1,45 @@
+package model;
+
+public class Aeronave {
+	
+	private String modelo;
+	
+	private String cor;
+	
+	public String getModelo() {
+		return modelo;
+	}
+
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+
+	public String getCor() {
+		return cor;
+	}
+
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+
+	public int getCapacidadeMax() {
+		return capacidadeMax;
+	}
+
+	public void setCapacidadeMax(int capacidadeMax) {
+		this.capacidadeMax = capacidadeMax;
+	}
+
+	public float getVelocidadeMax() {
+		return velocidadeMax;
+	}
+
+	public void setVelocidadeMax(float velocidadeMax) {
+		this.velocidadeMax = velocidadeMax;
+	}
+
+	private int capacidadeMax;
+	
+	private float velocidadeMax;
+
+}
